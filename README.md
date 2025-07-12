@@ -27,10 +27,33 @@ Additional Information
 If you're a Chrome user experiencing a certificate error and need help, please see this support article.
 If you're a website operator, you can learn more about why HTTPS matters and how to secure your site with HTTPS. If you've got a question about a certificate you've been issued, please contact the CA that issued it.
 If you're responsible for a CA that only issues certificates to your enterprise organization, sometimes called a "private" or "locally trusted" CA, the Chrome Root Program Policy does not apply to or impact your organization's Public Key Infrastructure (PKI) use cases. Enterprise CAs are used for issuing certificates to internal resources like intranet sites or applications that do not directly interact with external users of the public Internet (e.g., a TLS server authentication certificate issued to a corporate intranet site).
-
-### Though uncommon, websites can also use certificates to identify clients (e.g., users) connecting to them. Besides ensuring it is well-formed, Chrome passes this type of certificate to the server, which then evaluates and enforces its chosen policy. The policies on this page do not apply to client authentication certificates.
+though uncommon, websites can also use certificates to identify clients (e.g., users) connecting to them. Besides ensuring it is well-formed, Chrome passes this type of certificate to the server, which then evaluates and enforces its chosen policy. The policies on this page do not apply to client authentication certificates.
 Learn more about the Chrome Root Store and Chrome Certificate Verifier here.
 This policy, along with archived versions, is available in Markdown here.
+
+Muatan
+{
+   "tindakan" : " sedang berlangsung " ,
+   "pekerjaan_alur_kerja" : {
+     "id" : 45862278542 ,
+     "id_jalankan" : 16243197057 ,
+     "nama_alur_kerja" : " [utama]: perbarui README.md " ,
+     "cabang_kepala" : " utama " ,
+     "url_jalankan" : " https://api.github.com/repos/AriesTriputranto99/Policy-Chrome-Root-Program-/tindakan/jalankan/16243197057 " ,
+     "upaya_jalankan" : 1 ,
+     "id_simpul" : " CR_kwDOPLiXQM8AAAAKrZrVjg " ,
+     "head_sha" : " 6fd6d52e5c2033641580dea7c4d1d08b748ad9a3 " ,
+     "url" : " https://api.github.com/repos/AriesTriputranto99/Policy-Chrome-Root-Program-/actions/jobs/45862278542 " ,
+     "html_url" : " https://github.com/AriesTriputranto99/Policy-Chrome-Root-Program-/actions/runs/16243197057/job/45862278542 " ,
+     "status" : " in_progress " ,
+     "conclusion" : null ,
+     "created_at" : " 2025-07-12T23:49:19Z " ,
+     "started_at" : " 2025-07-12T23:49:25Z " ,
+     "completed_at" : null ,
+     "name" : " prebuild " ,
+     "steps" : [true]
+  }
+}
 
 ### Change History
 Version	Date	Note
