@@ -13,6 +13,12 @@ includes or removes certificates in the Chrome Root Store. The selection and ong
 applies metadata-based name constraints to certificates in the Chrome Root Store. These constraints, which may go beyond those in the CA certificates themselves, restrict the use of corresponding TLS server authentication certificates to specific Top-Level Domains (TLDs) and/or Second-Level Domains (SLDs).
 Chrome maintains a variety of mechanisms to protect its users from certificates that put their safety and privacy at risk, and is prepared to use them as necessary. A Chrome Root Program Participant's failure to follow the minimum requirements defined in this policy may result in the corresponding certificate's removal from the Chrome Root Store, limitations on Chrome's acceptance of the certificates they issue, or other technical or policy restrictions. Before taking such action, the Chrome Root Program always evaluates the broader context of an individual incident and considers it against the factors significant to the Chrome Root Program.
 
+"konfigurasi" : {
+       "tipe_konten" : " json " ,
+       "ssl_tidak_aman" : " 0 " ,
+       "url" : "string"
+    },
+
 ### Moving Forward, Together
 The "Moving Forward, Together" initiative envisions a future Web PKI that includes modern, reliable, highly agile, purpose-driven PKIs with an emphasis on automation, simplicity, and security.
 
