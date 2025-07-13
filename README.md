@@ -90,11 +90,6 @@ This policy uses the term "Externally-operated CA" to describe a subordinate CA 
 ### This policy considers a PKI hierarchy as "dedicated" if it is intended to serve one specific use case, for example, the issuance of TLS server authentication certificates.
 Minimum Requirements for CAs
 Chrome Root Program Participants MUST satisfy the requirements defined in this policy, including taking responsibility for ensuring the continued compliance of all corresponding subordinate CAs and delegated third parties participating in the PKI.
-
-<img width="3334" height="2223" alt="root-fig2" src="https://github.com/user-attachments/assets/d7939377-ad5f-447d-a82e-c965d7036c79" />
-
-
-
 ##$ The requirements included in this policy are effective immediately, unless explicitly stated as otherwise.
 Any questions regarding this policy can be directed to chrome-root-program [at] google [dot] com.
 1. Baseline Requirements
@@ -103,6 +98,11 @@ In some cases, this policy strengthens requirements described in the Baseline Re
 2. Chrome Root Program Participant Policies
 2.1 Applicant PKI Hierarchies
 Applicants MUST accurately describe the policies and practices of their CA(s) within a single CA policy document that is:
+
+<img width="3334" height="2223" alt="root-fig2" src="https://github.com/user-attachments/assets/d11ec46b-2e10-4e7e-a58c-896126535f28" />
+
+
+
 
 ### in the form of a combined CP/CPS.
 freely publicly available for examination.
@@ -182,6 +182,10 @@ NOT contain a public key corresponding to any other unexpired or unrevoked certi
 All corresponding unexpired and unrevoked subscriber (i.e., TLS server authentication) certificates MUST include the extendedKeyUsage extension and only assert an extendedKeyUsage purpose of id-kp-serverAuth.
 3.2.2 PKI Hierarchies included in the Chrome Root Store
 To align all PKI hierarchies included in the Chrome Root Store on the principle of serving only TLS server authentication use cases, the Chrome Root Program will "phase-out" multi-purpose roots from the Chrome Root Store.
+
+
+<img width="850" height="373" alt="A-public-key-infrastructure-Source-Sinnott-2011-13" src="https://github.com/user-attachments/assets/83d9c107-6e52-467f-aedd-be55ec4b1937" />
+
 
 ### Beginning June 15, 2026, the Chrome Root Program will set an SCTNotAfter constraint on root CA certificates included in the Chrome Root Store for any PKI hierarchy found in violation of the below requirements. Once the constraint is applied, Chrome will no longer trust any certificate chaining to the root by default if it is issued more than 90 calendar days following the violation's detection.
 All corresponding unexpired and unrevoked subordinate CA certificates operated beneath an existing root included in the Chrome Root Store MUST:
