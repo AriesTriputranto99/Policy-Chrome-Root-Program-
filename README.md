@@ -81,6 +81,10 @@ This policy uses the term "Externally-operated CA" to describe a subordinate CA 
 Minimum Requirements for CAs
 Chrome Root Program Participants MUST satisfy the requirements defined in this policy, including taking responsibility for ensuring the continued compliance of all corresponding subordinate CAs and delegated third parties participating in the PKI.
 
+<img width="3334" height="2223" alt="root-fig2" src="https://github.com/user-attachments/assets/d7939377-ad5f-447d-a82e-c965d7036c79" />
+
+
+
 ##$ The requirements included in this policy are effective immediately, unless explicitly stated as otherwise.
 Any questions regarding this policy can be directed to chrome-root-program [at] google [dot] com.
 1. Baseline Requirements
