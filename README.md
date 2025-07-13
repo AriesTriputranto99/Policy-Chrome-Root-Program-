@@ -60,6 +60,11 @@ Muatan
   }
 }
 
+<img width="850" height="373" alt="A-public-key-infrastructure-Source-Sinnott-2011-13" src="https://github.com/user-attachments/assets/f952e45c-8a42-46d7-849c-627da3807714" />
+
+
+
+
 ### Change History
 Version	Date	Note
 1.6	2025-02-15	Updates include, but are not limited to: (1) the future phase-out of non-TLS server authentication dedicated hierarchies from the Chrome Root Store, (2) requirements for future Applicants related to automation support, promoting simplicity of policy documents, and the definition of a dedicated TLS server authentication PKI hierarchy, (3) improved alignment with the TLS Baseline Requirements following Ballot SC-077, (4) addition of subsection numbers and major reorganization of normative and non-normative requirements
